@@ -7,9 +7,9 @@ Group:          Development/Libraries
 License:        MIT
 
 URL:            https://github.com/abstractj/libunix-dbus-java
-Source:         https://github.com/abstractj/%{name}/archive/%{name}-%{version}.tar.gz
+Source:         https://github.com/abstractj/%{name}/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 
-BuildRequires:  gcc, java-1.8.0-openjdk-devel
+BuildRequires:  gcc
 
 %description
 Native code to allow you to read and write Unix sockets in Java.
